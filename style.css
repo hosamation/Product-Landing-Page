@@ -1,0 +1,165 @@
+/* Start Global Rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #eee;
+  height: 800px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* Small Screen */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium Screen */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large Screen */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+/* Start Header */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  height: 50px;
+  top: 0;
+  background-color: #eee;
+  z-index: 6;
+}
+#header-img {
+  max-width: 230px;
+}
+#nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+/* End Header */
+#form {
+  margin-top: 50px;
+  padding: 20px 0;
+}
+#form h2 {
+  text-align: center;
+  padding: 20px;
+}
+#form input {
+  display: block;
+  margin: 10px auto;
+}
+#form input:first-of-type {
+  width: 200px;
+  padding: 5px;
+}
+#form input:last-of-type {
+  padding: 10px 15px;
+  font-weight: bold;
+  background-color: #F1C40F;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+/* Start Products */
+.product-box {
+  display: flex;
+  justify-content: c;
+  align-items: center;
+  margin: 20px 0;
+}
+.product-box .icon {
+  width: 80px;
+}
+.product-box .icon i {
+  color: #F1C40F;
+}
+/* End Products */
+/* Start Video */
+.container iframe {
+  margin: 100px auto;
+  display: block;
+}
+/* End Video */
+/* Start pricing */
+#pricing {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+
+}
+.pricing-box {
+  border: 1px solid #000;
+  text-align: center;
+}
+.pricing-box h4 {
+  background-color: #ddd;
+  padding: 10px 50px;
+  text-transform: uppercase;
+}
+.pricing-box p {
+  padding: 10px;
+}
+.pricing-box ul li {
+  margin-bottom: 5px;
+}
+.pricing-box a {
+  display: block;
+  width: fit-content;
+  margin: 10px auto;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  background-color: #F1C40F;
+  text-transform: uppercase;
+}
+/* End pricing */
+/* Start Footer */
+footer {
+  height: 70px;
+  background-color: #ddd;
+}
+footer ul {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+footer p {
+  text-align: right;
+  margin: 15px 0;
+}
+/* End Footer */
